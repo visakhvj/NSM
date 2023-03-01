@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gauge="http://schemas.android.com.maple.hfc.networkmonitoringsystem.preading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="20dp" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Preseent Reading"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.75" />
+        <ImageView
+            android:id="@+id/child_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/grapphbtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="         Batt 1 Voltt"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#4c4c4c"
+            android:id="@+id/tex1" />
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="         Batt 1 Voltt"
+            android:textAlignment="center"
+            android:background="#4c4c4c"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tex1s" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.maple.communication.nms.View.GaugeView
+             android:id="@+id/gauge_view1"
+             android:layout_width="155dp"
+            android:background="#323232"
+             android:layout_height="155dp" />
+        <com.maple.communication.nms.View.GaugeView
+            android:id="@+id/gauge_view1a"
+            android:layout_width="155dp"
+            android:layout_marginLeft="10dp"
+            android:background="#323232"
+            android:layout_height="155dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        >
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="         Batt 1 Voltt"
+            android:textAlignment="center"
+            android:background="#4c4c4c"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tex4" />
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="10dp"
+            android:text="         Batt 1 Voltt"
+            android:background="#4c4c4c"
+            android:id="@+id/tex5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.maple.communication.nms.View.GaugeView
+            android:id="@+id/gauge_view2"
+            android:background="#323232"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            gauge:showOuterShadow="true"
+            gauge:showOuterRim="false"
+            gauge:showNeedle="false"
+            gauge:showRanges="false"
+            gauge:showText="true"
+            gauge:textUnit="%" />
+        <com.maple.communication.nms.View.GaugeView
+            android:id="@+id/gauge_view2a"
+            android:background="#323232"
+            android:layout_gravity="right"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="10dp"
+            gauge:showOuterShadow="true"
+            gauge:showOuterRim="false"
+            gauge:showNeedle="false"
+            gauge:showRanges="false"
+            gauge:showText="true"
+            gauge:textUnit="%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="         Batt 1 Voltt"
+            android:background="#4c4c4c"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tex7" />
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="         Batt 1 Voltt"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#4c4c4c"
+            android:id="@+id/textView8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.maple.communication.nms.View.GaugeView
+            android:id="@+id/gauge_view3"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:background="#323232"
+            gauge:showOuterShadow="true"
+            gauge:showOuterRim="false"
+            gauge:showNeedle="false"
+            gauge:showRanges="false"
+            gauge:showText="true"
+            gauge:textUnit="%" />
+        <com.maple.communication.nms.View.GaugeView
+            android:id="@+id/gauge_view3a"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="10dp"
+            gauge:showOuterShadow="true"
+            gauge:showOuterRim="false"
+            gauge:showNeedle="false"
+            gauge:showRanges="false"
+            gauge:showText="true"
+            android:background="#323232"
+            gauge:textUnit="%" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

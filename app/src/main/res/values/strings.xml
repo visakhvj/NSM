@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NetMON</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tree">treeActivity</string>
+    <string name="title_activity_tree_view">treeView</string>
+    <string name="title_activity_site">siteActivity</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+</resources>

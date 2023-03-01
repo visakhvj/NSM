@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:layout_gravity="center"
+     >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true">
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="2dip"
+          >
+
+            <!--  ListRow Left sied Thumbnail image -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout android:id="@+id/thumbnail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dip">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tree_view"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/thumbnail"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:text="Rihanna Love the way lie"
+                            android:textColor="@color/text_color"
+                            android:typeface="sans"
+                            android:textSize="15dip"
+                            android:textStyle="bold"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/duration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignTop="@id/title"
+                            android:gravity="right"
+                            android:text="0:00"
+                            android:layout_marginRight="5dip"
+                            android:textSize="10dip"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/cmtscount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/title"
+                            android:textColor="@color/text_color"
+                            android:textSize="10dip"
+                            android:layout_marginTop="1dip"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:text="CMTS :0"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"/>
+
+                        <ImageView
+                            android:id="@+id/alarmimage"
+                            android:layout_width="20dp"
+                            android:layout_height="20dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/duration"
+                            android:gravity="right"
+                             />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/transcount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cmtscount"
+                            android:textColor="@color/text_color"
+                            android:textSize="10dip"
+                            android:layout_marginTop="1dip"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:text="DM :0, DSM3 :0"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/majoralrmcount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/transcount"
+                            android:textColor="@color/text_color"
+                            android:textSize="10dip"
+                            android:elevation="6dp"
+                            android:layout_marginTop="1dip"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:text="Major Alarm : 0"
+                          />
+
+                        <TextView
+                            android:id="@+id/minoralrmcount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/majoralrmcount"
+                            android:textColor="@color/text_color"
+                            android:textSize="10dip"
+                            android:layout_marginTop="1dip"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:elevation="6dp"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:text="Minor Alarm : Nil"
+                          android:layout_marginLeft="10dp"  />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <!-- Title Of Song-->
+
+            <!-- Artist Name -->
+
+
+            <!-- Rightend Duration -->
+
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+

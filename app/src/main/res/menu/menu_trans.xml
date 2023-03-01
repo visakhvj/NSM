@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--<item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/plus"
+        android:orderInCategory="100"
+        android:textColor="#10bcc9"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_search"
+        android:title="search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_search1"
+        android:title="setting"
+        app:icon="@drawable/settingsicon"
+        app:showAsAction="always"/>-->
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="addd"
+        app:showAsAction="always"/>
+
+
+</menu>

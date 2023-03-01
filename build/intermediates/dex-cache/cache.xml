@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.0.0_fc350cc2209f58a8968e3bf18e062aba54fef5c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_3f758b123739fdd559a02ee12ef25560300d738d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_8b73b360bc2832dce818dc50bd4345ffb80223db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f9fb6ebe0626dcefb8edff6b80620fb602a8fe62">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5440efcd7eb1bb4a92a0008ce092f1fef740c52a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\libs\snmp4j-2.3.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2a73d32b9c1846ea46aa5cbde84ff52977ca5876">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\2\snmp4j-2.3.4_09e9c0fcefb757fc036034f36d777769a3d34244\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_9f1703b9290e6b27555662bd7bfafca85f0144b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_30c29e2b7c0fe808486b31f551984f3166344c3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0bddafd561c2345745ac8cf8f4c580eb87c438a4">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_47c166f80ed319e8eec958777ec6628819819e79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_04d1bd45a4afd3e7b6a0d05fe131ad25b5d7867e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\Vineesh\NSMNew\New folder\NMS2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_6c88446780e8f0b6bac9bd764a53e6a4d730964c\classes.dex" />
+    </item>
+
+</items>

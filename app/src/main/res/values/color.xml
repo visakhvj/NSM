@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#2196F3</color>
+    <color name="secondary_color">#1565C0</color>
+    <color name="text_color">#000000</color>
+
+    <color name="action_bar">#2196F3</color>
+    <color name="status_bar">#1565C0</color>
+    <color name="list_main_item">#70aedf</color>
+    <color name="list_sub_1">#92bee1</color>
+    <color name="list_sub_2">#ffffff</color>
+ <!--   <color name="site_list">#E0F7FA</color>
+    <color name="site_list_selected">#87ecf9</color>-->
+
+</resources>
